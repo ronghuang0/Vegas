@@ -1,0 +1,92 @@
+.header {
+  margin-bottom: 30px;
+  height: 85px;
+}
+
+.leftHeader {
+  display: inline-block;
+  vertical-align: top;
+  height: 100%;
+  width: 80%;
+}
+
+.rightHeader {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  height: 100%;
+  width: 20%;
+}
+
+.title {
+  height: 60%;
+}
+
+.title .name {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 35px;
+  padding-right: 10px;
+}
+
+.info {
+  height: 40%;
+}
+
+.info div {
+  display: inline-block;
+  margin: 0 5px 0 5px;
+}
+
+.info .location {
+  cursor: pointer;
+}
+
+.rightHeader .price {
+  height: 70%;
+  font-size: 50px;
+  font-weight: bold;
+  color: #EB8631;
+}
+.rightHeader .priceText {
+  height: 30%;
+}
+
+.markIcon {
+  background: url('/assets/fonts/icons.png') no-repeat 1.025% 3.622%;
+	width: 8px;
+	height: 15px;
+  background-size: 496px 263px;
+  padding-right: 2px;
+}
+
+.phoneIcon {
+  background: url('/assets/fonts/icons.png') no-repeat 1.033% 85.686%;
+	width: 15px;
+	height: 15px;
+  background-size: 625px 331px;
+  padding-right: 2px;
+}
+
+.likeIcon {
+  background: url('/assets/fonts/icons.png') no-repeat 56.166% 86.028%;
+	width: 16px;
+	height: 16px;
+  background-size: 625px 331px;
+  padding-right: 2px;
+}
+
+.starIcon {
+  background: url('/assets/fonts/icons.png') no-repeat 56.166% 58.483%;
+	width: 16px;
+	height: 16px;
+  background-size: 625px 331px;
+  padding-right: 2px;
+}
+
+.halfStarIcon {
+  background: url('/assets/fonts/icons.png') no-repeat 55.55% 58.483%;
+	width: 8px;
+	height: 16px;
+  background-size: 625px 331px;
+}

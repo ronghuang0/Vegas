@@ -1,0 +1,28 @@
+.collapsed {
+  height: 200px;
+  overflow: hidden;
+}
+
+.expandText {
+  margin-top: 10px;
+  color: #875F94;
+  cursor: pointer;
+}
+
+.downIcon {
+  background: url('/assets/fonts/icons.png') no-repeat 1.242% 59.136%;
+	width: 13px;
+	height: 10px;
+  background-size: 496px 263px;
+  margin-left: 2px;
+  vertical-align: middle;
+}
+
+.upIcon {
+  background: url('/assets/fonts/icons.png') no-repeat 1.242% 32.024%;
+	width: 13px;
+	height: 10px;
+  background-size: 496px 263px;
+  margin-left: 2px;
+  vertical-align: middle;
+}

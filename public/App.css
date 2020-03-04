@@ -1,0 +1,36 @@
+.navbar {
+  padding: 10px;
+  color: #875F94;
+  cursor: pointer;
+}
+
+.sidebar {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 25%;
+  height: 100%;
+}
+
+.main {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 75%;
+  height: 100%;
+}
+
+.photo {
+  width: 100%;
+  padding-bottom: 25px;
+}
+
+.leftIcon {
+  background: url('/assets/fonts/icons.png') no-repeat 55.897% 3.8%;
+  background-size: 496px 263px;
+  width: 9px;
+	height: 17px;
+  margin-right: 2px;
+  vertical-align: middle;
+}
