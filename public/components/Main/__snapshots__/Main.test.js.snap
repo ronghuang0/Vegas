@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Main should render correctly when data is loaded 1`] = `
+exports[`Main should render correctly if data is loaded 1`] = `
 Array [
   <div
     className="header"
@@ -16,9 +16,8 @@ Array [
         >
           name
         </div>
-        <img
+        <div
           className="halfStarIcon"
-          src=""
         />
       </div>
       <div
@@ -28,22 +27,19 @@ Array [
           className="location"
           onClick={[Function]}
         >
-          <img
+          <div
             className="markIcon"
-            src=""
           />
         </div>
         <div>
-          <img
+          <div
             className="phoneIcon"
-            src=""
           />
           phoneNumber
         </div>
         <div>
-          <img
+          <div
             className="likeIcon"
-            src=""
           />
           Best Price Guarantee
         </div>
@@ -125,9 +121,8 @@ Array [
         onClick={[Function]}
       >
         SHOW FULL DESCRIPTION
-        <img
+        <div
           className="downIcon"
-          src=""
         />
       </div>
     </div>
