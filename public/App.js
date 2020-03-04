@@ -14,7 +14,7 @@ const App = () => {
   return (
     <>
       <div className={styles.navbar}>
-        <img className={styles.leftIcon} src='' />
+        <div className={styles.leftIcon} />
         SEE ALL LAS VEGAS HOTELS
       </div>
       <div className={styles.sidebar}>

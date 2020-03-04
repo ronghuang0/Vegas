@@ -12,10 +12,10 @@ const Header = ({
   const renderStars = () => {
     const stars = [];
     for (let i = 1; i <= starRating; i += 1) {
-      stars.push(<img className={styles.starIcon} src='' />);
+      stars.push(<div className={styles.starIcon} />);
     }
     if (!Number.isInteger(starRating)) {
-      stars.push(<img className={styles.halfStarIcon} src='' />);
+      stars.push(<div className={styles.halfStarIcon} />);
     }
     return stars;
   };
@@ -28,15 +28,15 @@ const Header = ({
         </div>
         <div className={styles.info}>
           <div className={styles.location} onClick={() => onSelect(2)}>
-            <img className={styles.markIcon} src='' />
+            <div className={styles.markIcon} />
             {location.areaName}
           </div>
           <div>
-            <img className={styles.phoneIcon} src='' />
+            <div className={styles.phoneIcon} />
             {phoneNumber}
           </div>
           <div>
-            <img className={styles.likeIcon} src='' />
+            <div className={styles.likeIcon} />
             Best Price Guarantee
           </div>
         </div>

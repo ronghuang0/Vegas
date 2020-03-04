@@ -27,6 +27,7 @@
 }
 
 .leftIcon {
+  display: inline-block;
   background: url('/assets/fonts/icons.png') no-repeat 55.897% 3.8%;
   background-size: 496px 263px;
   width: 9px;

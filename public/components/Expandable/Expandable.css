@@ -10,6 +10,7 @@
 }
 
 .downIcon {
+  display: inline-block;
   background: url('/assets/fonts/icons.png') no-repeat 1.242% 59.136%;
 	width: 13px;
 	height: 10px;
@@ -19,6 +20,7 @@
 }
 
 .upIcon {
+  display: inline-block;
   background: url('/assets/fonts/icons.png') no-repeat 1.242% 32.024%;
 	width: 13px;
 	height: 10px;

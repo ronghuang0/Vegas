@@ -14,8 +14,8 @@ const Expandable = ({ children, collapsedText, expandedText }) => {
       </div>
       <div className={styles.expandText} onClick={handleClick}>
         {collapsed ? collapsedText : expandedText}
-        {collapsed ? <img className={styles.downIcon} src='' />
-          : <img className={styles.upIcon} src='' />}
+        {collapsed ? <div className={styles.downIcon} />
+          : <div className={styles.upIcon} />}
       </div>
     </>
   );
